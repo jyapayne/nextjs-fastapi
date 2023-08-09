@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nextjs-fastapi"
+version = "0.1.0"
+description = "Next.js and fastapi starter for github projects"
+authors = ["Joey Yakimowich-Payne <jyapayne@pm.me>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nextjs_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.101.0"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
