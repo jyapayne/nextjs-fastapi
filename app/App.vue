@@ -3,8 +3,6 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import axios from 'axios';
 
-axios.defaults.baseURL = import.meta.env.VITE_API_URL;
-
 let fetchData = function () {
   axios.get("/python")
     .then(response => {
