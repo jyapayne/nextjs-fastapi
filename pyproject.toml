@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "nextjs-fastapi"
+name = "vue-fastapi"
 version = "0.1.0"
 description = "Next.js and fastapi starter for github projects"
 authors = ["Joey Yakimowich-Payne <jyapayne@pm.me>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "nextjs_fastapi"}]
+packages = [{include = "vue_fastapi"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
